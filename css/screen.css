@@ -228,7 +228,6 @@ h1 {
 p {
   font-weight: bold;
   font-size: 20px;
-  padding-bottom: 10%;
   position: relative;
   text-align: center;
 }
@@ -250,6 +249,7 @@ label {
   height: 19px;
   cursor: pointer;
 }
+
 
 
 /* ===== STATE STYLES ======= */
