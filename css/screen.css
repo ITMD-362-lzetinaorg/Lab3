@@ -236,6 +236,7 @@ p {
 label {
   font-weight: bold;
   padding-bottom: 7%;
+  padding-top: 10%;
 }
 
 #input-age-verification {
@@ -252,4 +253,27 @@ label {
 
 
 /* ===== STATE STYLES ======= */
+
+@media screen and (min-width: 480px)  { 
+  input {
+    width: 100%;
+    height: 100%;
+    padding: auto;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  #submit {
+    width: 100%; 
+    height: 100%;
+    padding: auto;
+  }
+ 
+  #email {
+    width: 100%;
+    height: 100%;
+    padding: auto;
+  }
+} 
 
