@@ -235,9 +235,20 @@ p {
 
 label {
   font-weight: bold;
-  padding-bottom: 5%;
+  padding-bottom: 7%;
 }
 
+#input-age-verification {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+}
+
+[type="checkbox"] {
+  width: 19px;
+  height: 19px;
+  cursor: pointer;
+}
 
 
 /* ===== STATE STYLES ======= */
