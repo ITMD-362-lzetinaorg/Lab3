@@ -21,10 +21,12 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: sans-serif; /* 1 */
-  font-size: 100%; /* 1 */
-  line-height: 1.15; /* 1 */
-  margin: 0; /* 2 */
+  box-sizing: content-box;
+  width: 95%;
+  font-family: "Inter", "Times New Roman",sans-serif; /* 1 */
+  padding: 15px 25px;
+  font-size: 90%; /* 1 */
+  line-height: 1.5; /* 1 */
 }
 
 /**
@@ -203,6 +205,17 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
+form {
+  box-sizing: border-box;
+  background-color: gray;
+  padding: 7rem 4rem; 
+  width: 70%;
+  height: 60%; 
+  max-width: 700px;
+  max-height: 500px;
+  margin: auto;
+}
+
 
 
 /* ===== STATE STYLES ======= */
