@@ -210,9 +210,9 @@ form {
   background-color: gray;
   padding: 6rem 4rem; 
   width: 70%;
-  height: 50%; 
+  height: 60%; 
   max-width: 700px;
-  max-height: 500px;
+  max-height: 600px;
   margin: auto;
 }
 
@@ -223,6 +223,19 @@ h1 {
   position: relative;
   padding-top: 0%;
   text-align: center;
+}
+
+p {
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 10%;
+  position: relative;
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+  padding-bottom: 5%;
 }
 
 
