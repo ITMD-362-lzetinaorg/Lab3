@@ -219,7 +219,7 @@ form {
 h1 {
   font-weight: bold;
   font-size: 40px;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
   position: relative;
   padding-top: 0%;
   text-align: center;
@@ -236,6 +236,10 @@ label {
   font-weight: bold;
   padding-bottom: 7%;
   padding-top: 10%;
+}
+
+#email {
+  padding-top: 0;
 }
 
 #input-age-verification {
